@@ -1,16 +1,48 @@
-# React + Vite
+# Portfolio Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite portfolio website built as a frontend development assignment. The existing site is organized into reusable sections for navigation, the hero/header, portfolio projects, about, contact, and footer.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- Vite
+- JavaScript / JSX
+- CSS
 
-## React Compiler
+## Current learning project: Spendwise — Smart Expense Calculator
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Spendwise is the current JavaScript-to-React learning project being developed alongside this portfolio. It rebuilds a vanilla-JavaScript expense calculator as a responsive React dashboard.
 
-## Expanding the ESLint configuration
+### Implemented in the current project package
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add, edit, and delete expenses
+- Search and category filtering
+- Monthly budget and remaining-budget calculations
+- Category breakdown and largest-expense insight
+- Input validation and browser `localStorage` persistence
+- Responsive dashboard
+- Native accessible delete-confirmation dialog
+- Visible feedback notifications
+- Strict calendar-date validation and currency rounding safeguards
+- 13 unit tests for calculations, validation, dates, and storage edge cases
+
+### Current milestone
+
+**React refactor, validation, accessibility, and utility-test refinement.**
+
+The standalone Spendwise source package has been prepared separately; adding the full project source to this repository and verifying the production build are still pending. Component-level interaction testing, browser-based accessibility checks, and deployment follow next.
+
+## Running the existing portfolio site
+
+From the repository root:
+
+```bash
+npm install
+npm run dev
+```
+
+For the existing portfolio site's production build:
+
+```bash
+npm run build
+```
